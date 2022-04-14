@@ -1,0 +1,15 @@
+{
+    "name": "m2i/poo",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "M2i\\Poo\\": "src/",
+            "M2i\\Framework\\": "app/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/var-dumper": "6.1.x-dev",
+        "twig/twig": "^3.0"
+    }
+}
